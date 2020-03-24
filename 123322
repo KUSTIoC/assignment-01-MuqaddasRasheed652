@@ -1,0 +1,53 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Paper;
+
+/**
+ *
+ * @author HP
+ */
+public class course {
+     private String course_name;
+        private int coures_code;
+        private String program_name;
+
+    public course(String course_name, int coures_code, String program_name) {
+        this.course_name = course_name;
+        this.coures_code = coures_code;
+        this.program_name = program_name;
+    }
+
+    public String getCourse_name() {
+        return course_name;
+    }
+
+    public void setCourse_name(String course_name) {
+        this.course_name = course_name;
+    }
+
+    public int getCoures_code() {
+        return coures_code;
+    }
+
+    public void setCoures_code(int coures_code) {
+        this.coures_code = coures_code;
+    }
+
+    public String getProgram_name() {
+        return program_name;
+    }
+
+    public void setProgram_name(String program_name) {
+        this.program_name = program_name;
+    }
+
+    @Override
+    public String toString() {
+        return "course{" + "course_name=" + course_name + ", coures_code=" + coures_code + ", program_name=" + program_name + '}';
+    }
+        
+    
+}

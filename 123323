@@ -1,0 +1,161 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Paper;
+
+    public class Paper {
+    private String paper_tile;
+    private String paper_id;
+    private int course_code;
+    private String incharge;
+    private String semister;
+    private int date;
+    private int month;
+    private int year;
+    private int time;
+    private static final double maxMarks = 100;
+    private String exam_type;
+    private String invigilator;
+    private String location;
+    private int numofstudent;
+    private boolean collected;
+
+    public Paper(String paper_tile, String paper_id, int course_code, String incharge, String semister, int date, int month, int year, int time, String exam_type, String invigilator, String location, int numofstudent, boolean collected) {
+        this.paper_tile = paper_tile;
+        this.paper_id = paper_id;
+        this.course_code = course_code;
+        this.incharge = incharge;
+        this.semister = semister;
+        this.date = date;
+        this.month = month;
+        this.year = year;
+        this.time = time;
+        this.exam_type = exam_type;
+        this.invigilator = invigilator;
+        this.location = location;
+        this.numofstudent = numofstudent;
+        this.collected = collected;
+    }
+
+    public String getPaper_tile() {
+        return paper_tile;
+    }
+
+    public void setPaper_tile(String paper_tile) {
+        this.paper_tile = paper_tile;
+    }
+
+    public String getPaper_id() {
+        return paper_id;
+    }
+
+    public void setPaper_id(String paper_id) {
+        this.paper_id = paper_id;
+    }
+
+    public int getCourse_code() {
+        return course_code;
+    }
+
+    public void setCourse_code(int course_code) {
+        this.course_code = course_code;
+    }
+
+    public String getIncharge() {
+        return incharge;
+    }
+
+    public void setIncharge(String incharge) {
+        this.incharge = incharge;
+    }
+
+    public String getSemister() {
+        return semister;
+    }
+
+    public void setSemister(String semister) {
+        this.semister = semister;
+    }
+
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getTime() {
+        return time;
+    }
+
+    public void setTime(int time) {
+        this.time = time;
+    }
+
+    public String getExam_type() {
+        return exam_type;
+    }
+
+    public void setExam_type(String exam_type) {
+        this.exam_type = exam_type;
+    }
+
+    public String getInvigilator() {
+        return invigilator;
+    }
+
+    public void setInvigilator(String invigilator) {
+        this.invigilator = invigilator;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public int getNumofstudent() {
+        return numofstudent;
+    }
+
+    public void setNumofstudent(int numofstudent) {
+        this.numofstudent = numofstudent;
+    }
+
+    public boolean isCollected() {
+        return collected;
+    }
+
+    public void setCollected(boolean collected) {
+        this.collected = collected;
+    }
+
+    @Override
+    public String toString() {
+        return "Paper{" + "paper_tile=" + paper_tile + ", paper_id=" + paper_id + ", course_code=" + course_code + ", incharge=" + incharge + ", semister=" + semister + ", date=" + date + ", month=" + month + ", year=" + year + ", time=" + time + ", exam_type=" + exam_type + ", invigilator=" + invigilator + ", location=" + location + ", numofstudent=" + numofstudent + ", collected=" + collected + '}';
+    }
+    
+
+}
+   
